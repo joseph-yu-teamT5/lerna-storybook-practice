@@ -1,0 +1,12 @@
+{
+  "name": "@lerna_storybook/utils",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib && tsc"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

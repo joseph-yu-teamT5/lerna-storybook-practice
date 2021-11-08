@@ -1,0 +1,22 @@
+{
+  "name": "@lerna_storybook/docs",
+  "version": "1.0.0",
+  "private": true,
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "start-storybook -p 6006",
+    "build": "build-storybook",
+    "export": "build-storybook -o ./out"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^6.3.12",
+    "@lerna_storybook/core": "^1.0.0",
+    "@lerna_storybook/styles": "^1.0.0",
+    "@lerna_storybook/utils": "^1.0.0"
+  }
+}
